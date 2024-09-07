@@ -1,0 +1,83 @@
+canvas {
+    border: 1px solid #323030;
+    background-color: #252121;
+    margin: auto;
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+* {
+    margin: 0;
+    font-family: 'Rubik', sans-serif;
+    background-color: coral;
+}
+
+#navbar {
+    width: fill;
+    height: auto;
+    padding: 20px;
+    color: white;
+    background-color: rgb(80, 142, 196);
+    top: 0;
+}
+
+#navbar h1, h2 {
+    display: inline-block;
+    margin: 0 50px 0 50px;
+    background-color: rgb(80, 142, 196);
+    transition: .2s;
+}
+
+#navbar h2:hover {
+    color: coral;
+    transition: .2s;
+}
+
+.container {
+    width: 100%;
+    margin: auto;
+    align-items: center;
+    text-align: center;
+    margin-top: 30px;
+}
+
+input {
+    background-color: white;
+    border: 1px solid blue;
+}
+
+button {
+    background-color: rgb(80, 142, 196);
+    border: 1px solid black;
+    border-radius: 4px;
+    color: white;
+    transition: 1s;
+}
+
+button:hover {
+    background-color:rgb(23, 83, 136);
+    transition: 1s;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    background-color: rgb(80, 142, 196);
+}
+
+select {
+    background-color: white;
+}
+
+.container2 {
+    width: 50%;
+    background-color: white;
+    margin: auto;
+    padding: 30px;
+    margin-top: 50px;
+}
+
+.container2 p, h1 {
+    background-color: white;
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DASHER</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anuphan&family=Rubik&family=Rubik+Moonrocks&family=Tilt+Neon&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div id="navbar">
+        <h1>DASHER</h1>
+        <h2><a href="index.html">PLAY</a></h2>
+        <h2><a href="instructions.html">INSTRUCTIONS</a></h2>
+    </div>
+    <p id="info"></p>
+    <div class="container">
+        <button onclick="startGame()">Previous level</button>
+        <button onclick="nextLevel()">Next level</button>
+        <select id="color" placeholder="color">
+            <option value="red">Red</option>
+            <option value="blue">Blue</option>
+            <option value="green">Green</option>
+            <option value="yellow">Yellow</option>
+            <option value="purple">Purple</option>
+            <option value="brown">Brown</option>
+        </select>
+        <button onclick="getColor()">Submit</button>
+        <button onclick="startGame()">New game</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
